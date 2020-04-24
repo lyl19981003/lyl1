@@ -1,0 +1,100 @@
+.sousuo{
+	width: 100%;
+	margin-top: 0.5rem;
+}
+.inp{
+	width: 90%;
+	margin: 0 auto;
+	display: flex;
+}
+.inp input{
+	position: relative;
+	width: 90%;
+	height: 0.5rem;
+	border: 1px solid gainsboro;
+	border-radius: 0.08rem;
+}
+.one{
+	padding-top: 0.05rem;
+	font-size: 0.3rem;
+	position: absolute;
+	left: 75%;
+}
+.two{
+	padding-top: 0.05rem;
+	width: 0.37rem;
+	height: 0.41rem;
+	position: absolute;
+	left: 78%;
+}
+.two img{
+	display: block;
+	width: 100%;
+}
+.tab{
+	width: 100%;
+	position: relative;
+	font-size: 0.2rem;
+	/*display: flex;
+	justify-content: space-around;*/
+}
+.tab-header ul{
+	border: 1px solid pink;
+	display: flex;
+	justify-content: space-around;
+}
+.tab-content{
+	position: absolute;
+	top: 0.29rem;	
+	width: 100%;
+	
+	/*background-color: pink;
+	border: 1px solid red;*/
+}
+.tab-content div{
+	display: none;
+/*	height: 5rem;*/
+}
+.tab-content li{
+	width: 100%;
+	background-color: gainsboro;
+	opacity: 0.7;
+}
+.cont{
+	/*margin-top: 0.5rem;*/
+	width: 100%;
+	font-size: 0.3rem;
+}
+.cont ul{
+	width: 90%;
+	margin: 0 auto;
+}
+.cont ul li{
+	display: flex;
+	border-bottom: 2px solid #ff8a00;
+	padding: 0.5rem 0;
+}
+.cont-two{
+	/*background-color: pink;*/
+	padding-top: 0.15rem;
+	width: 18%;
+}
+.cont-two img{
+	width: 100%;
+}
+.cont-one{
+	margin-left: 0.25rem;
+	width: 72%;
+}
+.cont-one p:nth-child(3){
+	color: gainsboro;
+}
+.cont-one p:nth-child(3) span{
+	color: #FF8A00;
+}
+.cont-one p:nth-child(4){
+	color: gainsboro;
+}
+.cont ul li:last-child{
+	border-bottom: none;
+}

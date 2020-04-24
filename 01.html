@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="css/header.css" />
+		<link rel="stylesheet" type="text/css" href="css/01.css" />
+		<!--<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>-->
+		<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+		<script type="text/javascript" src="js/rem.js"></script>
+		<title></title>
+	</head>
+
+	<body>
+		<div>
+			<div class="header">
+				<div class="header-nav">
+					<div class="header-one">
+						<div>
+							<a href="index.html"><img src="img/logo.jpg" /></a>
+						</div>
+					</div>
+					<div class="header-two">
+						<div><img src="img/my.jpg" /></div>
+						<div><img src="img/xiazai.jpg" /></div>
+					</div>
+				</div>
+			</div>
+			<div class="sousuo">
+				<div class="inp">
+					<input type="text" placeholder="请输入小区名或商圈名称" />
+					<div class="one">|</div>
+					<div class="two">
+						<a href="02.html"><img src="img/search_03.png" /></a>
+					</div>
+				</div>
+			</div>
+			<div class="tab">
+				<div class="tab-header">
+					<ul>
+						<li>区域</li>
+						<li>价格</li>
+						<li>房型</li>
+						<li>更多</li>
+					</ul>
+				</div>
+				<div class="tab-content">
+					<div>
+						<ul>
+							<li>北京</li>
+							<li>上海</li>
+							<li>苏州</li>
+							<li>杭州</li>
+							<li>北京</li>
+							<li>上海</li>
+							<li>苏州</li>
+							<li>杭州</li>
+							<li>北京</li>
+							<li>上海</li>
+							<li>苏州</li>
+							<li>杭州</li>
+						</ul>
+					</div>
+					<div>
+						<ul>
+							<li>不限</li>
+							<li>100万以下</li>
+							<li>100-150万</li>
+							<li>150-200万</li>
+							<li>200-300万</li>
+						</ul>
+					</div>
+					<div>
+						<ul>
+							<li>三室一厅</li>
+							<li>四室两厅</li>
+						</ul>
+					</div>
+					<div>
+						<ul>
+							<li>联系我们</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="cont">
+				<ul>
+					<li>
+						<div class="cont-two"><img src="img/img1.png" /></div>
+						<div class="cont-one">
+							<p><b>西便门外大街2室1厅89平</b></p>
+							<p>南北&nbsp;&nbsp;高楼层/6层</p>
+							<p>签约价格：13244元/平<span>1105万</span></p>
+							<p>签约日期：2015年11月10日</p>
+						</div>
+					</li>
+					<li>
+						<div class="cont-two"><img src="img/img2.png" /></div>
+						<div class="cont-one">
+							<p><b>金桥国际&nbsp;1室1厅&nbsp;63平</b></p>
+							<p>南北&nbsp;&nbsp;高楼层/6层</p>
+							<p>签约价格：13244元/平<span>905万</span></p>
+							<p>签约日期：2015年11月10日</p>
+						</div>
+					</li>
+					<li>
+						<div class="cont-two"><img src="img/img3.png" /></div>
+						<div class="cont-one">
+							<p><b>花涧溪二期&nbsp;2室2厅&nbsp;90平</b></p>
+							<p>南北&nbsp;&nbsp;高楼层/6层</p>
+							<p>签约价格：13244元/平<span>1322万</span></p>
+							<p>签约日期：2015年11月10日</p>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<script type="text/javascript">
+			$(function() {
+				$(".tab-header li").click(function() {
+					$(this).css({"color": "red"});
+					$(this).siblings().css("color", "black")
+					var $inx = $(this).index();
+					$(".tab-content div").eq($inx).show();
+					$(".tab-content div").eq($inx).siblings().hide();
+				})
+			})
+		</script>
+	</body>
+
+</html>

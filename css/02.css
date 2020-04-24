@@ -1,0 +1,86 @@
+
+.cont{
+	/*margin-top: 0.5rem;*/
+	width: 100%;
+	font-size: 0.3rem;
+}
+.cont ul{
+	width: 90%;
+	margin: 0 auto;
+}
+.cont ul li{
+	display: flex;
+	border-bottom: 2px solid #ff8a00;
+	padding: 0.5rem 0;
+}
+.cont-two{
+	/*background-color: pink;*/
+	padding-top: 0.15rem;
+	width: 18%;
+}
+.cont-two img{
+	width: 100%;
+}
+.cont-one{
+	margin-left: 0.25rem;
+	width: 72%;
+}
+.cont-one p{
+	width: 70%;
+}
+.cont-one p:nth-child(2){
+	display: flex;
+	justify-content: space-between;
+}
+.cont-one p:nth-child(2) span{
+	color: #FF8A00;
+}
+.cont-one p:nth-child(3){
+	display: flex;
+	justify-content: space-between;
+	font-size: 0.24rem;
+	color: gainsboro;
+}
+.cont-one p:nth-child(4) span{
+	/*display: inline-block;*/
+	margin-left: 0.1rem;
+	border: 1px solid gainsboro;
+	font-size: 0.24rem;
+	color: cornflowerblue;
+}
+.cont ul li:last-child{
+	border-bottom: 5px solid gainsboro;
+}
+.tab-nav{
+	width: 90%;
+	margin: 0 auto;
+}
+.tab{
+	font-size: 0.36rem;
+	width: 80%;
+	margin: 0 auto;
+}
+.tab ul{
+		display: flex;
+		justify-content: space-around;
+}
+.tab ul li{
+	flex: 1;
+}
+.tab2{
+	width: 100%;
+	height: 3rem;
+	font-size: 0.36rem;
+	margin-top: 0.3rem;
+	/*background-color: plum;*/
+	/*color: white;*/
+}
+.tab2 div:nth-child(1){
+	display: flex;
+}
+.tab2 div:nth-child(1) ul{
+	flex: 1;
+}
+.tab2 div:nth-child(2){
+	display: none;
+}

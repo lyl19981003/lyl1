@@ -1,0 +1,52 @@
+div{
+	position: relative;
+}
+.content{
+	width: 100%;
+}
+.bgimg{
+	background-size: cover;
+}
+.bgimg img{
+	width: 100%;
+}
+input{
+	width: 80%;
+	height: 0.5rem;
+	margin-left: 10%;
+	position: absolute;
+	top: 4.25rem;
+}
+.imgs{
+	width: 1.1rem;
+	height: 1.1rem;
+}
+.imgs img{
+	width: 100%;
+}
+.list li{
+	width: 1.1rem;
+	height: 1.3rem;
+	text-align: center;
+}
+.list p{
+	font-size: 0.24rem;
+	margin-top: 0.1rem;
+}
+/*.list{
+	background-color:#ff8a00 ;*/
+/*}*/
+.list ul{
+	background-color:#ff8a00 ;
+	padding: 0.6rem 0;
+	color: white;
+	display: flex;
+	justify-content: space-around;
+}
+.foot{
+	width: 100%;
+	
+}
+.foot img{
+	width: 100%;
+}

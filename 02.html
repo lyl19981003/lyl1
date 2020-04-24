@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="css/header.css" />
+		<link rel="stylesheet" type="text/css" href="css/02.css" />
+		<!--<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>-->
+		<script type="text/javascript" src="js/jquery-1.8.3.min.js" ></script>
+		<script type="text/javascript" src="js/rem.js"></script>
+		<title></title>
+	</head>
+	<body>
+		<div>
+		<div class="head">
+			<p>热门房源<br /><span>Hot&nbsp;house</span></p>
+		</div>		
+			<div class="cont">
+				<ul>
+					<li>
+						<div class="cont-two"><img src="img/img6.png"/></div>
+						<div class="cont-one">
+						<p><b>文化部最中间一层带...</b></p>
+						<p>2室1厅96㎡南北<span>1105万</span></p>
+						<p>红庙北里<span>14268/平</span></p>
+						<p><span>学区房</span><span>独家</span></p>
+						</div>						
+					</li>
+					<li>
+						<div class="cont-two"><img src="img/img8.png"/></div>
+						<div class="cont-one">
+						<p><b>广大水墨&nbsp;精装复式&nbsp;稀缺...</b></p>
+						<p>2室1厅96㎡南北<span>280万</span></p>
+						<p>广大水墨<span>14268/平</span></p>
+						<p><span>学区房</span><span>独家</span><span>满五曾一</span></p>
+						</div>	
+					</li>
+					<li>
+						<div class="cont-two"><img src="img/img9.png"/></div>
+						<div class="cont-one">
+						<p><b>南北通透两居&nbsp;精装修&nbsp;无...</b></p>
+						<p>2室1厅96㎡南北<span>320万</span></p>
+						<p>红庙北里<span>14268/平</span></p>
+						<p><span>地铁房</span><span>独家</span></p>
+						</div>	
+					</li>
+				</ul>
+			</div>
+			<div class="tab-nav">
+				<div class="tab">
+				<ul>
+				<li>热门关注</li>
+				<li>友情链接</li>
+				</ul>
+			</div>
+			<div class="tab2">
+				<div>
+					<ul>
+						<li>北京二手房</li>
+						<li>北京二手房价</li>
+						<li>海淀日租房</li>
+						<li>朝阳新房</li>
+					</ul>
+					<ul>
+						<li>北京链家</li>
+						<li>青年家园</li>
+						<li>免税房源</li>
+						<li>满五年唯一免税...</li>
+					</ul>
+				</div>
+				<div><a href="index.html">回到首页</a>
+				</div>
+			</div>
+			</div>
+			
+		</div>
+		<script type="text/javascript">
+			$(function(){
+				$(".tab li").click(function(){
+					var $inx=$(this).index();
+					$(".tab2 div").eq($inx).show();
+					$(".tab2 div").eq($inx).siblings().hide()
+				})
+			})
+		</script>
+	</body>
+</html>
